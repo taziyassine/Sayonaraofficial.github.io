@@ -211,7 +211,7 @@ section{
         top: 10%;
     }
     h1,.b1{
-        font-size: 50px;
+        font-size: 80px;
         background-image: linear-gradient(rgb(110, 16, 16),rgb(255, 255, 255));
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
