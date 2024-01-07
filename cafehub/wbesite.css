@@ -190,7 +190,7 @@ section{
         
     }
     b,i,h1{
-        font-size: 60px;
+        font-size: 80px;
         background-image: linear-gradient(rgb(0, 0, 0),rgb(4, 4, 4));
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
@@ -202,7 +202,7 @@ section{
     
     }
     p{
-       font-size: 10px;
+       font-size: 40px;
        position: absolute;
        left: 13%;
        width: 90%;
