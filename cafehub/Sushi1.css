@@ -254,7 +254,7 @@ footer{
         top: 10%;
     }
     h1,.b1{
-        font-size: 50px;
+        font-size: 80px;
         background-image: linear-gradient(rgb(110, 16, 16),rgb(255, 255, 255));
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
@@ -282,7 +282,7 @@ footer{
         -webkit-background-clip: text;
         text-decoration: none;
         font-family: cursive;
-        font-size: 40px ;
+        font-size: 70px ;
     }
     #a2:hover{
         background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));

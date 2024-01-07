@@ -183,14 +183,14 @@ section{
         width: 100%;
     }
     .menu1{
-        right: 10%;
+        right: 15%;
         position: absolute;
         top: 130%;
         height: 100%;
     }
     .menu2{
         position: absolute;
-        right: 10%;
+        right: 15%;
         top: 20%;
         height: 100%;
     }   
@@ -221,12 +221,12 @@ section{
         top: 10%;
     }
     h1,.b1{
-        font-size: 50px;
+        font-size: 70px;
         background-image: linear-gradient(rgb(110, 16, 16),rgb(255, 255, 255));
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
         position: absolute;
-        right: 20%;
+        right: 10%;
     
     }
 }

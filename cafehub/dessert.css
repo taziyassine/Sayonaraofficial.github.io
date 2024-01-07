@@ -178,7 +178,7 @@ section{
         width: 100%;
     }
     .menu1{
-        right: 10%;
+        right: 20%;
         position: absolute;
         top: 30%;
         height: 100%;
@@ -210,7 +210,7 @@ section{
         top: 10%;
     }
     h1,.b1{
-        font-size: 50px;
+        font-size: 70px;
         background-image: linear-gradient(rgb(110, 16, 16),rgb(255, 255, 255));
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;

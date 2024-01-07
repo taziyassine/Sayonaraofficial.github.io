@@ -216,13 +216,13 @@ section{
         left: 10%; 
         top: 10%;
     }
-    h1,.b1{
-        font-size: 50px;
+    b{
+        font-size: 90px;
         background-image: linear-gradient(rgb(110, 16, 16),rgb(255, 255, 255));
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
         position: absolute;
-        right: 40%;
+        right: 38%;
     
     }
    

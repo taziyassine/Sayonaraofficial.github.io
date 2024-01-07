@@ -146,26 +146,26 @@ p{
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
         position: absolute;
-        top: 40%;
+        top: 70%;
         text-align: center;
         width: 100%;
         left: 0%;
     }
     p{
-        font-size: 15px;
+        font-size: 35px;
         color: rgb(255, 254, 254);
         width: 300%;
         position: relative;
         left: 0%;
-        top: 20%;
+        top: 50%;
         height: 50%;
         
     }
     .sayonara{
         width: 70%;
         position: absolute;
-        left: 22%;
-        bottom: 70%;
+        left: 10%;
+        bottom: 30%;
     }
    
     .bg2{
