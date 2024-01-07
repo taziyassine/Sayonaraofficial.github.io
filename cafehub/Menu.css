@@ -363,7 +363,7 @@ footer{
         left: -3%;
     }
     .b2{
-        font-size: 70px;
+        font-size: 80px;
         background-image: linear-gradient(rgb(110, 16, 16),rgb(255, 255, 255));
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
@@ -374,7 +374,7 @@ footer{
         text-align: center;
     }
     .b3{
-        font-size: 40px;
+        font-size: 80px;
         background-image: linear-gradient(rgb(110, 16, 16),rgb(255, 255, 255));
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
@@ -386,7 +386,7 @@ footer{
         font-size: 45px;
     }
     .b1{
-        font-size: 40px;
+        font-size: 80px;
         background-image: linear-gradient(rgb(110, 16, 16),rgb(255, 255, 255));
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
@@ -401,7 +401,7 @@ footer{
         border-radius: 30px;
         position: relative;
         top: 80%;
-        left: 10%;
+        left: 15%;
         
     }
     .imgsalade{
