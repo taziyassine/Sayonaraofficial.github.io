@@ -151,7 +151,7 @@ footer{
     height: 0.0000000001%;
 }
 
-@media screen and (min-width:320px) and (max-width:599px) {
+@media screen and (min-width:320px) and (max-width:1242px) {
     body{
         display: flex;
         justify-content: center;
@@ -263,16 +263,18 @@ footer{
     
     }
     footer{
-        height: 5%;
-        width: 20%;
+        height: 20%;
+        width: 100%;
         position: absolute;
-        top: 250%;
+        top: 240%;
+        background-image: url(dark-grunge-texture_1048-4055.avif);
     }
     .pagination{
         width: 20%;
         position: relative;
         height: 5%;
         left: 35%;
+        top: 10%;
     }
     #a2{
         background-image: linear-gradient(rgb(236, 236, 236), rgb(201, 202, 202));
@@ -294,7 +296,7 @@ footer{
     .page-item:hover{
         background-image: linear-gradient(rgb(110, 0, 0),rgb(255, 255, 255));
         position: relative;
-        height: 2100%;
+        height: 500%;
         text-align: center;
         
         width: 80px;

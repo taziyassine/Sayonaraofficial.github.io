@@ -88,7 +88,7 @@ p{
     left: 55%;
     bottom: 5%;
 }
-@media screen and (min-width:320px) and (max-width:599px) {
+@media screen and (min-width:320px) and (max-width:1242px) {
     body{
         display: flex;
         justify-content: center;
@@ -146,7 +146,7 @@ p{
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
         position: absolute;
-        top: 55%;
+        top: 70%;
         text-align: center;
         width: 100%;
         left: 0%;
@@ -154,17 +154,17 @@ p{
     p{
         font-size: 15px;
         color: rgb(255, 254, 254);
-        width: 200%;
+        width: 300%;
         position: relative;
         left: 0%;
-        top: 40%;
+        top: 50%;
         height: 50%;
         
     }
     .sayonara{
-        width: 70%;
+        width: 50%;
         position: absolute;
-        left: 15%;
+        left: 20%;
         bottom: 50%;
     }
    
@@ -173,6 +173,7 @@ p{
         width: 100%;
         position: absolute;
         right: 0%;
+        top: 20%;
     }
     
     .menu{
