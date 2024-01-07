@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(menusushi.jpg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+
+}
+ul{
+    font-size: larger ;
+    justify-content: center;
+    gap: 0 35px;
+    align-self: center;
+    font-size: 17px;
+    position: absolute;
+    display: flex;
+    right: 5%;
+    bottom:90%;
+    
+}
+.a1{
+    background-image: linear-gradient(rgb(236, 236, 236), rgb(201, 202, 202));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 20px ;
+}
+.a1:hover{
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+}
+.li1{
+    list-style: none;
+}
+.li1:hover{
+    background-image: linear-gradient(rgb(237, 136, 231),rgb(255, 255, 255));;
+    border-radius: 30px;
+    position: relative;
+    
+    text-align: center;
+    top: 5%;
+    width: 80px;
+}
+
+.lire{
+    width: 30%;
+    height: 40px;
+    color: white;
+    position: absolute;
+    top:1%;
+    left: 40%; 
+}
+.b1 {
+    font-size: 50px;
+    background-image: linear-gradient(rgb(110, 16, 16),rgb(255, 255, 255));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+
+section{
+    height: 70%;
+    width: 100%;
+}
+.menu1{
+    right: 60%;
+    position: absolute;
+    top: 15%;
+    height: 120%;
+}
+.menu2{
+    position: absolute;
+    right: 10%;
+    top: 15%;
+    height: 120%;
+    
+}   
+footer{
+    height: 5%;
+    width: 20%;
+    position: absolute;
+    top: 145%;
+}
+.pagination{
+    width: 20%;
+    position: relative;
+    height: 5%;
+    left: 35%;
+}
+#a2{
+    background-image: linear-gradient(rgb(236, 236, 236), rgb(201, 202, 202));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 20px ;
+}
+#a2:hover{
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+    position: relative;
+    
+    
+}
+.page-item{
+    list-style: none;
+}
+.page-item:hover{
+    background-image: linear-gradient(rgb(237, 136, 231),rgb(255, 255, 255));;
+    position: relative;
+    height: 2100%;
+    text-align: center;
+    
+    width: 80px;
+    color: black;
+}
+.bg3{
+   
+    width: 0.00001%;
+    height: 0.0000000001%;
+}
+.bg4{
+    width: 0.00001%;
+    height: 0.0000000001%;
+   
+}
+.bg2{
+    width: 0.00001%;
+    height: 0.0000000001%;
+}
+.bg6{
+    width: 0.00001%;
+    height: 0.0000000001%;
+}
+
+@media screen and (min-width:320px) and (max-width:599px) {
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-image: url(menusushi.jpg);
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    
+    }
+    
+    header{
+        
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 20%;
+    
+    
+    }
+    ul{
+        font-size: larger ;
+       
+        gap: 0 35px;
+        width: 90%;
+        font-size: 17px;
+        position: absolute;
+        display: flex;
+        bottom:93%;
+        right: 1%;
+        
+    }
+    .a1{
+        background-image: linear-gradient(rgb(236, 236, 236), rgb(201, 202, 202));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        text-decoration: none;
+        font-family: cursive;
+        font-size: 15px ;
+        position: relative;
+        
+        
+    }
+    .a1:hover{
+        background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+    }
+    .li1{
+        list-style: none;
+    }
+    .li1:hover{
+        background-image: linear-gradient(rgb(110, 0, 0),rgb(255, 255, 255));
+        border-radius: 30px;
+        position: relative;
+        text-align: center;
+        top: 5%;
+        width: 15%;;
+    }
+    
+    
+    section{
+        height: 70%;
+        width: 100%;
+    }
+    .menu1{
+        right: 3%;
+        position: absolute;
+        top: 140%;
+        width: 95%;
+        height: 100%;
+    }
+    .bg3{
+        margin-top: -31%;
+        width: 100%;
+        height: 100%;
+    }
+    .bg4{
+        width: 100%;
+        height: 90%;
+        margin-top: -31%;
+    }
+    .bg2{
+        height: 90%;
+        width: 100%;
+    }
+    
+    .menu2{
+        width: 95%;
+        position: absolute;
+        height: 100%;
+        left: 2%;
+        top: 25%;
+    }
+    .lire{
+        width: 90%;
+        color: white;
+        position: absolute;
+        left: 10%; 
+        top: 10%;
+    }
+    h1,.b1{
+        font-size: 50px;
+        background-image: linear-gradient(rgb(110, 16, 16),rgb(255, 255, 255));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        position: absolute;
+        right: 40%;
+    
+    }
+    footer{
+        height: 5%;
+        width: 20%;
+        position: absolute;
+        top: 250%;
+    }
+    .pagination{
+        width: 20%;
+        position: relative;
+        height: 5%;
+        left: 35%;
+    }
+    #a2{
+        background-image: linear-gradient(rgb(236, 236, 236), rgb(201, 202, 202));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        text-decoration: none;
+        font-family: cursive;
+        font-size: 20px ;
+    }
+    #a2:hover{
+        background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+        position: relative;
+        
+        
+    }
+    .page-item{
+        list-style: none;
+    }
+    .page-item:hover{
+        background-image: linear-gradient(rgb(110, 0, 0),rgb(255, 255, 255));
+        position: relative;
+        height: 2100%;
+        text-align: center;
+        
+        width: 80px;
+        color: black;
+    }
+}

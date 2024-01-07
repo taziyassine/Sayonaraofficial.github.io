@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(menusushi.jpg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+
+}
+ul{
+    font-size: larger ;
+    justify-content: center;
+    gap: 0 35px;
+    align-self: center;
+    font-size: 17px;
+    position: absolute;
+    display: flex;
+    right: 5%;
+    bottom:90%;
+    
+}
+a{
+    background-image: linear-gradient(rgb(236, 236, 236), rgb(201, 202, 202));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 20px ;
+}
+a:hover{
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+}
+li{
+    list-style: none;
+}
+
+.bg2{
+    width: 0.00001%;
+    height: 0.0000000001%;
+}
+li:hover{
+    background-image: linear-gradient(rgb(237, 136, 231),rgb(255, 255, 255));;
+    border-radius: 30px;
+    position: relative;
+    
+    text-align: center;
+    top: 5%;
+    width: 80px;
+}
+b{
+    font-size: 50px;
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(151, 0, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    position: absolute;
+    top: 20%;
+    width: 30%;
+    left: 5%;
+}
+p{
+    font-size: 20px;
+    color: white;
+    width: 40%;
+    left: 5%;
+    position: relative;
+}
+.sayonara{
+    width: 40%;
+    position: absolute;
+    left: 55%;
+    bottom: 5%;
+}
+@media screen and (min-width:320px) and (max-width:599px) {
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-image: url(menusushi.jpg);
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    
+    }
+    
+    ul{
+        justify-content: center;
+        gap: 0 35px;
+        align-self: center;
+        font-size: 10px;
+        position: absolute;
+        display: flex;
+        left: 10%;
+        bottom:94%;
+        width: 90%;
+        
+    }
+    a{
+        background-image: linear-gradient(rgb(236, 236, 236), rgb(201, 202, 202));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        text-decoration: none;
+        font-family: cursive;
+        font-size: 15px ;
+        position: relative;
+        
+    }
+    a:hover{
+        background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+    }
+    li{
+        list-style: none;
+
+    }
+    li:hover{
+        background-image: linear-gradient(rgb(145, 6, 6),rgb(255, 255, 255));;
+        border-radius: 30px;
+        position: relative;
+        text-align: center;
+        top: 5%;
+        width: 15%;
+        
+    }
+    b{
+        font-size: 30px;
+        background-image: linear-gradient(rgb(255, 255, 255),rgb(151, 0, 0));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        position: absolute;
+        top: 55%;
+        text-align: center;
+        width: 100%;
+        left: 0%;
+    }
+    p{
+        font-size: 15px;
+        color: rgb(255, 254, 254);
+        width: 200%;
+        position: relative;
+        left: 0%;
+        top: 40%;
+        height: 50%;
+        
+    }
+    .sayonara{
+        width: 70%;
+        position: absolute;
+        left: 15%;
+        bottom: 50%;
+    }
+   
+    .bg2{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        right: 0%;
+    }
+    
+    .menu{
+       margin-top: 30%;
+       height: 100%;
+       width: 100%;
+       position: absolute;
+       left: 0%;
+    }
+    section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70%;
+        width: 100%;
+    
+    }
+}

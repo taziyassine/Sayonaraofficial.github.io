@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(Picsart_23-12-24_17-08-19-031.jpg);
+    height: 100px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+
+}
+
+ul{
+    font-size: larger ;
+    justify-content: center;
+    gap: 0 35px;
+    align-self: center;
+    font-size: 17px;
+    display: flex;
+    position: absolute;
+    right: 5%;
+    
+}
+a{
+    background-image: linear-gradient(rgb(236, 236, 236), rgb(201, 202, 202));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 20px ;
+}
+a:hover{
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+}
+li{
+    list-style: none;
+}
+li:hover{
+    background-image: linear-gradient(rgb(237, 136, 231),rgb(255, 255, 255));;
+    border-radius: 30px;
+    position: relative;
+    
+    text-align: center;
+    top: 5%;
+    width: 80px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+             
+}
+.lire{
+    width: 30%;
+    height: 40px;
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    position: absolute;
+    top:25%;
+    left: 25%;
+    font-family:cursive;
+    
+    
+}
+b,i,h1{
+    font-size: 100px;
+    background-image: linear-gradient(rgb(237, 136, 231),rgb(255, 255, 255));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+p{
+   font-size: 20px;
+   position: absolute;
+   left: 25%;
+}
+section{
+    height: 0%;
+    width: 0%;
+}
+.bg3{
+   
+    width: 0.00001%;
+    height: 0.0000000001%;
+}
+.bg4{
+    width: 0.00001%;
+    height: 0.0000000001%;
+   
+}
+.bg2{
+    width: 0.00001%;
+    height: 0.0000000001%;
+}
+.bg6{
+    width: 0.00001%;
+    height: 0.0000000001%;
+}
+@media screen and (min-width:320px) and (max-width:599px){
+    body{
+       
+        background-image:  linear-gradient(rgb(0, 0, 0), rgb(122, 0, 0)) ;
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    
+    }
+    
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+    
+    }
+    
+    ul{
+        font-size: larger ;
+       
+        gap: 0 35px;
+        width: 90%;
+        font-size: 17px;
+        position: absolute;
+        display: flex;
+        bottom:93%;
+        right: 1%;
+        
+    }
+    a{
+        background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        text-decoration: none;
+        font-family: cursive;
+        font-size: 15px ;
+        position: relative;
+        
+        
+    }
+    a:hover{
+        background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+    }
+    li{
+        list-style: none;
+    }
+    li:hover{
+        background-image: linear-gradient(rgb(145, 6, 6),rgb(255, 255, 255));
+        border-radius: 30px;
+        position: relative;
+        text-align: center;
+        top: 5%;
+        width: 15%;;
+    }
+    .text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+                 
+    }
+    .lire{
+        width: 70%;
+        height: 40px;
+        font-size: 30px;
+        font-weight: 400;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        top:25%;
+        left: 25%;
+        font-family:cursive;
+        
+        
+    }
+    b,i,h1{
+        font-size: 40px;
+        background-image: linear-gradient(rgb(0, 0, 0),rgb(4, 4, 4));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        position: absolute;
+        right: 5%;
+        bottom: 80%;
+        width: 100%;
+        text-align: center;
+    
+    }
+    p{
+       font-size: 10px;
+       position: absolute;
+       left: 13%;
+       width: 90%;
+       top: 10%;
+    }
+    
+    .bg2{
+        height: 130%;
+        width: 100%;
+        position:absolute;
+        bottom: -20%;
+        right: 0%;
+    }
+    .menu3{
+        
+    }
+    
+}
