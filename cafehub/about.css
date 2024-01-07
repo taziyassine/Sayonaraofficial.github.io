@@ -146,7 +146,7 @@ p{
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
         position: absolute;
-        top: 70%;
+        top: 40%;
         text-align: center;
         width: 100%;
         left: 0%;
@@ -157,19 +157,19 @@ p{
         width: 300%;
         position: relative;
         left: 0%;
-        top: 50%;
+        top: 20%;
         height: 50%;
         
     }
     .sayonara{
-        width: 50%;
+        width: 70%;
         position: absolute;
-        left: 20%;
-        bottom: 50%;
+        left: 22%;
+        bottom: 70%;
     }
    
     .bg2{
-        height: 100%;
+        height: 70%;
         width: 100%;
         position: absolute;
         right: 0%;
