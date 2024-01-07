@@ -178,7 +178,7 @@ section{
         width: 100%;
     }
     .menu1{
-        right: 20%;
+        right: 5%;
         position: absolute;
         top: 30%;
         height: 100%;
@@ -215,7 +215,7 @@ section{
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
         position: absolute;
-        right: 8%;
+        right: 20%;
     
     }
 }
